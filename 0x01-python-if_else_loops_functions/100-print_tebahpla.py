@@ -1,4 +1,6 @@
 #!/usr/bin/python3
-for x in range(122, 96, -2):
-    print('{:s}'.format(chr(x)), end=''))
-    print('{:s}'.format(chr(x - 1 - 32)), end='')
+for i in reversed(range(97, 123)):
+    if (i % 2 == 0):
+        print('{:c}'.format(i), end='')
+    else:
+        print('{:c}'.format(i - 32), end='')
