@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#!/usr/bin/python3
 for x in range(0, 100):
     if int(x / 10) != x % 10 and ((x % 10) * 10 + x / 10) > x:
         if x < 89:
